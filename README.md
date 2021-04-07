@@ -17,7 +17,7 @@ I created this website mainly because I found even a few single words would make
 With this easy and clean tool, we could record what we have seen and heard in our own way.
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](/image.js/homepage.png)
 
 ## Technologies
 * Tech 1 - React version 17.0.2
