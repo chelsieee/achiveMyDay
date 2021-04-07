@@ -1,11 +1,5 @@
-<<<<<<< fe
-# achiveMyDay
-# Project Name
-> Here goes your awesome project description!
-=======
 # ArchiveMyDay
 > This app is a blogger where we can use it like a daily diary to keep down thoughts, experience, feelings, and anything you want to archive for the day
->>>>>>> master
 
 ## Table of contents
 * [General info](#general-info)
@@ -18,13 +12,9 @@
 * [Contact](#contact)
 
 ## General info
-<<<<<<< fe
-Add more general information about project. What the purpose of the project is? Motivation?
-=======
 The purpose of this blogger is to create a place where people can use it to share love, thoughts, experience and anything that makes a day.
 I created this website mainly because I found even a few single words would make me feel relax and calm after a whole day busying working or studying.
 With this easy and clean tool, we could record what we have seen and heard in our own way.
->>>>>>> master
 
 ## Screenshots
 ![Example screenshot](./img/screenshot.png)
