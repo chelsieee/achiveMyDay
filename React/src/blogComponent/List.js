@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme) => ({
     
   },
   image: {
-    height: 300,
+    height: 210,
     backgroundRepeat: "no-repeat",
     backgroundColor:
       theme.palette.mode === "light"
