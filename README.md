@@ -20,26 +20,27 @@ With this easy and clean tool, we could record what we have seen and heard in ou
 ![Example screenshot](./img/screenshot.png)
 
 ## Technologies
-* Tech 1 - version 1.0
-* Tech 2 - version 2.0
-* Tech 3 - version 3.0
+* Tech 1 - React version 17.0.2
+* Tech 2 - Ruby version 2.6.6
+* Tech 3 - Rails version 6.1.3
+* Tech 4 - JWT token
+* Tech 5 - material-ui/bootstrap/TinyMCE
 
 ## Setup
-Describe how to install / setup your local environement / add link to demo version.
+* install react 
+* install ruby
+* install rails 
 
-## Code Examples
-Show examples of usage:
-`put-your-code-here`
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1
-* Awesome feature 2
-* Awesome feature 3
+* Awesome feature 1: inplement JWT token to verify authenticity 
+* Awesome feature 2: incorprate rich text editor to optimise user experience
+* Awesome feature 3: responsive website with images refreshed automatically
 
 To-do list:
-* Wow improvement to be done 1
-* Wow improvement to be done 2
+* Wow improvement to be done 1: to add div collapse and exdend
+* Wow improvement to be done 2: to add the search function 
 
 ## Status
 Project is: _in progress_, _finished_, _no longer continue_ and why?
