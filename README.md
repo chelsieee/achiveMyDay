@@ -4,6 +4,7 @@
 ## Table of contents
 * [General info](#general-info)
 * [Screenshots](#screenshots)
+* [Wireframes](#Wireframes)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -18,8 +19,10 @@ With this easy and clean tool, we could record what we have seen and heard in ou
 ## Screenshots
 ![Example screenshot](/image.js/homePage-large.png)
 
-
-## Wireframes: (/image.js/wireframe.jpeg)
+## Wireframes
+<p align=”center”>
+<img src="/image.js/wireframe.jpeg">
+</p>
 
 
 ## Technologies
