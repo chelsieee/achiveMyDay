@@ -17,7 +17,8 @@ I created this website mainly because I found even a few single words would make
 With this easy and clean tool, we could record what we have seen and heard in our own way.
 
 ## Screenshots
-![Example screenshot](/image.js/homePage-large.png)
+![Example screenshot](/image.js/login.png)
+![Example screenshot](/image.js/homepage.png)
 
 ## Wireframes
 <p align="center"> <img src="image.js/wireframe.jpeg"> </p>
