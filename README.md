@@ -5,6 +5,7 @@
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Wireframes](#Wireframes)
+* [Database Model Associations](#Database-Model-Associations)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
@@ -22,6 +23,12 @@ With this easy and clean tool, we could record what we have seen and heard in ou
 
 ## Wireframes
 <p align="center"> <img src="image.js/wireframe.jpeg"> </p>
+
+
+## Database Model Associations
+<p align="center"> <img src="image.js/dbdiagram.png"> </p>
+
+
 
 
 ## Technologies
