@@ -30,7 +30,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: 14,
   },
   pos: {
-    marginBottom: 12,
+    marginBottom: 10,
   },
   formControl: {
     marginBottom: theme.spacing(3),

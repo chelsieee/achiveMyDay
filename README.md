@@ -20,9 +20,7 @@ With this easy and clean tool, we could record what we have seen and heard in ou
 ![Example screenshot](/image.js/homePage-large.png)
 
 ## Wireframes
-<p align=”center”>
-<img src="/image.js/wireframe.jpeg">
-</p>
+<p align="center"> <img src="image.js/wireframe.jpeg"> </p>
 
 
 ## Technologies
@@ -48,7 +46,7 @@ With this easy and clean tool, we could record what we have seen and heard in ou
 
 ## Features
 List of features ready and TODOs for future development
-* Awesome feature 1: implement JWT token to verify the authenticity 
+* Awesome feature 1: implement JWT to verify the authenticity 
 * Awesome feature 2: incorporate rich text editor to optimise the user experience
 * Awesome feature 3: responsive website with images refreshed automatically
 
