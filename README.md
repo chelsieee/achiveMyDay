@@ -53,7 +53,7 @@ With this easy and clean tool, we could record what we have seen and heard in ou
 
 
 ## Features
-List of features ready and TODOs for future development
+List of features ready:
 * Awesome feature 1: implement JWT to verify the authenticity 
 * Awesome feature 2: incorporate rich text editor to optimise the user experience
 * Awesome feature 3: responsive website with images refreshed automatically
