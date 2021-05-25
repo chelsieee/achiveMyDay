@@ -22,6 +22,9 @@ With this easy and clean tool, we could record what we have seen and heard in ou
 ### live example
 <img src="https://media.giphy.com/media/OPsDKAB3ayp7yBv9ct/giphy.gif" width="100%" height="80%"/>
 
+[![Watch the video](https://img.youtube.com/vi/6Ag5HNN8u-0/maxresdefault.jpg)](https://www.youtube.com/watch?v=6Ag5HNN8u-0)
+
+
 ### Screenshots
 ![Example screenshot](/image.js/login.png)
 ![Example screenshot](/image.js/homepage.png)
