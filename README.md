@@ -3,11 +3,11 @@
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Wireframes](#Wireframes)
-* [Database Model Associations](#Database-Model-Associations)
+* [Demo](#demo)
+* [Wireframes](#wireframes)
+* [Database Model Associations](#database-model-associations)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Prerequisite](#prerequisite)
 * [Features](#features)
 * [Status](#status)
 * [Contact](#contact)
@@ -17,7 +17,12 @@ The purpose of this blogger is to create a place where people can use it to shar
 I created this website mainly because I found even a few single words would make me feel relax and calm after a whole day busying working or studying.
 With this easy and clean tool, we could record what we have seen and heard in our own way.
 
-## Screenshots
+## Demo
+
+### live example
+<img src="https://media.giphy.com/media/OPsDKAB3ayp7yBv9ct/giphy.gif" width="100%" height="80%"/>
+
+### Screenshots
 ![Example screenshot](/image.js/login.png)
 ![Example screenshot](/image.js/homepage.png)
 
@@ -27,8 +32,6 @@ With this easy and clean tool, we could record what we have seen and heard in ou
 
 ## Database Model Associations
 <p align="center"> <img src="image.js/dbdiagram.png"> </p>
-
-
 
 
 ## Technologies
