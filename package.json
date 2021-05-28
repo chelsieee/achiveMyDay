@@ -1,0 +1,23 @@
+{
+  "name": "archiveMyDay",
+  "version": "1.0.0",
+  "description": "> This blogger is like a daily diary where we can put down thoughts, experience, feelings, and anything that we wish to archive for a day",
+  "main": "image.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "yarn --cwd frontend install && yarn --cwd frontend build",
+    "deploy": "cp -a frontend/build/. public/",
+    "heroku-postbuild": "yarn build && yarn deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelsieee/archiveMyDay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chelsieee/archiveMyDay/issues"
+  },
+  "homepage": "https://github.com/chelsieee/archiveMyDay#readme"
+}

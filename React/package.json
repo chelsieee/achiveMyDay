@@ -28,7 +28,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:8000",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -49,5 +48,6 @@
   },
   "devDependencies": {
     "css-loader": "^5.2.0"
-  }
+  },
+  "proxy": "http://localhost:8000"
 }
