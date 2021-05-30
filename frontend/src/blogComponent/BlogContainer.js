@@ -27,7 +27,7 @@ export const BlogContainer = (props) => {
     }
 
     axios
-      .post("http://localhost:3000/api/blogs", payload, {
+      .post("/api/blogs", payload, {
         "Access-Control-Allow-Credentials": true,
         headers: {
           'token':window.localStorage.getItem('token')
@@ -38,7 +38,7 @@ export const BlogContainer = (props) => {
         history.replace("/private");
 
     axios
-      .get("http://localhost:3000/api/blogs", {
+      .get("/api/blogs", {
             "Access-Control-Allow-Credentials": true,
             headers: {
               'token':window.localStorage.getItem('token')
@@ -50,7 +50,7 @@ export const BlogContainer = (props) => {
           });
       
     axios
-          .get("http://localhost:3000/api/blogs/myblog", {
+          .get("/api/blogs/myblog", {
             "Access-Control-Allow-Credentials": true,
             headers: {
               'token':window.localStorage.getItem('token')
@@ -75,7 +75,7 @@ export const BlogContainer = (props) => {
     }
     axios
       .patch(
-        `http://localhost:3000/api/blogs/${blog.id}`, payload,
+        `/api/blogs/${blog.id}`, payload,
         
         { "Access-Control-Allow-Credentials": true,
         headers: {
@@ -87,7 +87,7 @@ export const BlogContainer = (props) => {
         console.log("PUT res:", res.data);
         history.replace('/private')
         axios
-          .get("http://localhost:3000/api/blogs", {
+          .get("/api/blogs", {
             "Access-Control-Allow-Credentials": true,
             headers: {
               'token':window.localStorage.getItem('token')
@@ -99,7 +99,7 @@ export const BlogContainer = (props) => {
           });
 
         axios
-          .get("http://localhost:3000/api/blogs/myblog", {
+          .get("/api/blogs/myblog", {
             "Access-Control-Allow-Credentials": true,
             headers: {
               'token':window.localStorage.getItem('token')
@@ -116,7 +116,7 @@ export const BlogContainer = (props) => {
   const handleDeleteBlog = (blog) => {
     console.log("blog to be deleted:", blog.id);
     axios
-      .delete(`http://localhost:3000/api/blogs/${blog.id}`, {
+      .delete(`/api/blogs/${blog.id}`, {
         "Access-Control-Allow-Credentials": true,
         headers: {
           'token':window.localStorage.getItem('token')
@@ -125,7 +125,7 @@ export const BlogContainer = (props) => {
       .then((deletedBlog) => {
         console.log(deletedBlog);
         axios
-          .get("http://localhost:3000/api/blogs/myblog", {
+          .get("/api/blogs/myblog", {
             "Access-Control-Allow-Credentials": true,
             headers: {
               'token':window.localStorage.getItem('token')
@@ -137,7 +137,7 @@ export const BlogContainer = (props) => {
           });
 
         axios
-          .get("http://localhost:3000/api/blogs", {
+          .get("/api/blogs", {
             "Access-Control-Allow-Credentials": true,
             headers: {
               'token':window.localStorage.getItem('token')
@@ -153,7 +153,7 @@ export const BlogContainer = (props) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/blogs", {
+      .get("/api/blogs", {
         "Access-Control-Allow-Credentials": true,
         headers: {
           'token':window.localStorage.getItem('token')
@@ -167,7 +167,7 @@ export const BlogContainer = (props) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/blogs/myblog", {
+      .get("/api/blogs/myblog", {
         "Access-Control-Allow-Credentials": true,
         headers: {
           'token':window.localStorage.getItem('token')
@@ -181,7 +181,7 @@ export const BlogContainer = (props) => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/categories", {
+      .get("/api/categories", {
         "Access-Control-Allow-Credentials": true,
       })
       .then((res) => {
