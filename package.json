@@ -5,8 +5,8 @@
   "main": "image.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "yarn --cwd frontend install && yarn --cwd frontend build",
-    "deploy": "cp -a frontend/build/. public/",
+    "build": "yarn --cwd React install && yarn --cwd React build",
+    "deploy": "cp -a React/build/. public/",
     "heroku-postbuild": "yarn build && yarn deploy"
   },
   "repository": {
