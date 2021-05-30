@@ -1,7 +1,7 @@
 # ArchiveMyDay
 > This blogger is like a daily diary where we can put down thoughts, experience, feelings, and anything that we wish to archive for a day
 
-Deployed on: https://archive-my-day.herokuapp.com/
+> Deployed on: https://archive-my-day.herokuapp.com/
 
 
 ## Table of contents
