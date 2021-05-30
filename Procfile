@@ -1,2 +1,3 @@
-web: bundle exec rails s
+web: PORT=3000 yarn --cwd frontend start
+api: PORT=8000 bundle exec rails s
 release: bin/rake db:migrate
